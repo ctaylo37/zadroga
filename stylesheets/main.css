@@ -9300,6 +9300,7 @@ img {
   right: 0px;
   bottom: 65px;
   width: 100%;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   z-index: 10;
 }
