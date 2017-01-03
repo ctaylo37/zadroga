@@ -1,0 +1,25 @@
+.carousel{
+  a{
+    background-image: none!important;
+    color: $grey-4;
+    opacity: 1;
+    text-shadow: none;
+
+    &:hover{
+      color: darken($grey-4, 10%);
+    }
+  }
+
+  i{
+    position: absolute;
+    top: 50%;
+  }
+
+  .carousel-inner{
+    .item{
+      img{
+        margin: 0 auto;
+      }
+    }
+  }
+}

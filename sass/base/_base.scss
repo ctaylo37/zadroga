@@ -1,0 +1,61 @@
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 400px) {
+  html { font-size: 16px; }
+}
+
+@media (max-width: 900px) {
+  html { font-size: 18px; }
+}
+
+@media(min-width: 1280px){
+  html {font-size: 20px;}
+}
+
+body{
+  font-size: 0.8rem;
+  background-color: $grey-1;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.row{
+  margin: 0!important;
+}
+
+a{
+  transition: background-color 0.4s ease-in-out;
+  color: $brand;
+  text-decoration: none;
+
+  &:hover, &:focus{
+    color: darken($brand, 8%);
+    text-decoration: none;
+  }
+
+  .material-icons{
+    display: inline;
+    font-size: inherit;
+  }
+}
+
+img{
+  max-width: 100%;
+}
+
+.content{
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  bottom: 65px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  z-index: 10;
+}

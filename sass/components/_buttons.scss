@@ -1,0 +1,21 @@
+.btn-primary{
+	background-color: $brand;
+	border: transparent;
+
+	&:hover, &:focus{
+		background-color: darken($brand, 8%);
+		border: transparent;
+	}
+}
+
+.btn-default{
+	background-color: $grey-2;
+	border: transparent;
+	color: $grey-4;
+
+	&:hover, &:focus{
+		background-color: darken($grey-2, 8%);
+		border: transparent;
+		color: $grey-4;
+	}
+}

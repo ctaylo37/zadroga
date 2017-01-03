@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>404 | Zummo Bikes</title>
+	<meta property="og:site_name" content="Zummo Bikes">
+	<meta property="og:title" content="Zummo Bike Program">
+	<meta property="og:url" content="http://www.zumobike.com">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://zumobike.com/img/fav.png"/>
+	<meta property="og:description" content="Zummo Bikes supply refurbished bicycles, new helmets and locks (The Zummo Pack) to students with perfect attendance in the 1st through 4th grades in Norristown PA.">  
+	<meta itemprop="name" content="Zummo Bike Program">
+	<meta itemprop="url" content="http://www.zumobike.com">
+	<meta itemprop="description" content="Zummo Bikes supply refurbished bicycles, new helmets and locks (The Zummo Pack) to students with perfect attendance in the 1st through 4th grades in Norristown PA.">
+	<meta name="robots" content="index,follow">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="stylesheets/main.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/fav.ico">
+</head>
+
+<body>
+
+	<div id="404" class="row text-center" style="background-color: #f88a6b; height: 100vh; padding: 100px 0;">
+		<div class="containrer">
+			<h1 class="big light">404</h1>
+			<p class="light">Oops!  Looks like there was a problem.  Try returning to the homepage.</p>
+			<a href="index.html" class="btn btn-lg btn-default">Return Home</a>
+		</div>
+		
+	</div>
+
+</body>
+</html>
