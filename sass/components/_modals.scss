@@ -1,8 +1,16 @@
-.modal-header, .modal-body, .modal-footer{
-	border: none;
-}
+.modal{
+	background: rgba(28, 40, 51, .6);
 
-.modal-footer{
-	text-align: center;
-	font-size: 1rem;
+	.modal-dialog{
+		border-radius: 4px;
+
+		.modal-header, .modal-body, .modal-footer{
+			border: none;
+		}
+
+		.modal-footer{
+			text-align: center;
+			font-size: 1rem;
+		}
+	}
 }

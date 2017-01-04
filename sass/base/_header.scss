@@ -6,7 +6,7 @@ header{
   height: 50px;
   border-bottom: solid 1px $grey-2;
   background: $paper;
-  z-index: 20;
+  z-index: 30;
 
   .header-left, .header-center, .header-right{
     position: absolute;

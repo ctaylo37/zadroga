@@ -1,0 +1,195 @@
+.plan-container{
+	position: relative;
+	display: block;
+	margin: 12px auto;
+
+	.plan-layer{
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		z-index: 10;
+	}
+
+	.btn-layer{
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 20;
+
+		.btn{
+			position: absolute;
+		}
+	}
+
+	&#house-plan{
+		width: 326px;
+		height: 612px;
+		
+		.plan-layer{
+			background-image: url(../img/plans/house.svg);
+		}
+
+		#btn-living{
+			top: 80px;
+			left: 50px;
+		}
+
+		#btn-kitchen{
+			top: 80px;
+			right: 120px;
+		}
+
+		#btn-outside{
+			bottom: 108px;
+			right: 0px;
+		}
+
+		#btn-potter{
+			top: 290px;
+			left: 40px;
+		}
+
+		#btn-bath{
+			top: 250px;
+			right: 120px;
+		}
+
+		#btn-bed{
+			top: 400px;
+			left: 90px;
+		}
+
+		#btn-laundry{
+			bottom: 30px;
+			left: 45px;
+		}
+		
+	}
+
+	&#living-plan{
+		width: 326px;
+		height: 316px;
+
+		.plan-layer{
+			background-image: url(../img/plans/living.svg);
+		}
+
+		#btn-living-1{
+			top: 80px;
+			left: 50px;
+		}
+
+		#btn-living-2{
+			top: 80px;
+			right: 50px;
+		}
+
+	}
+
+	&#kitchen-plan{
+		width: 326px;
+		height: 385px;
+
+		.plan-layer{
+			background-image: url(../img/plans/kitchen.svg);
+		}
+
+		#btn-kitchen-1{
+			top: 180px;
+			right: 50px;
+		}
+
+		#btn-kitchen-2{
+			top: 80px;
+			right: 50px;
+		}
+
+	}
+
+	&#potter-plan{
+		width: 326px;
+		height: 450px;
+
+		.plan-layer{
+			background-image: url(../img/plans/potter.svg);
+		}
+
+		#btn-potter-1{
+			bottom: 30px;
+			left: 50px;
+		}
+
+		#btn-potter-2{
+			bottom: 140px;
+			left: 100px;
+		}
+
+	}
+
+	&#bath-plan{
+		width: 326px;
+		height: 389px;
+
+		.plan-layer{
+			background-image: url(../img/plans/bath.svg);
+		}
+
+		#btn-bath-1{
+			bottom: 30px;
+			right: 50px;
+		}
+
+		#btn-bath-2{
+			bottom: 200px;
+			right: 50px;
+		}
+
+	}
+
+	&#bed-plan{
+		width: 326px;
+		height: 324px;
+
+		.plan-layer{
+			background-image: url(../img/plans/bed.svg);
+		}
+
+		#btn-bed-1{
+			top: 50px;
+			right: 80px;
+		}
+
+		#btn-bed-2{
+			bottom: 200px;
+			left: 40px;
+		}
+
+	}
+
+	&#laundry-plan{
+		width: 326px;
+		height: 464px;
+
+		.plan-layer{
+			background-image: url(../img/plans/laundry.svg);
+		}
+
+		#btn-laundry-1{
+			bottom: 80px;
+			right: 60px;
+		}
+
+		#btn-laundry-2{
+			bottom: 150px;
+			left: 80px;
+		}
+
+	}
+
+}

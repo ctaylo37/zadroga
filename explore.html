@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Home | Zadroga Haus</title>
+	<title>Rooms | Zadroga Haus</title>
 	<meta property="og:site_name" content="Zadroga Haus">
 	<meta property="og:title" content="Zadroga Haus">
 	<meta property="og:url" content="http://www.zadroga.littlebrook.me">
@@ -42,7 +42,7 @@
 			<!-- <a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i> Explore</a> -->
 		</div>
 		<div class="header-center">
-			<h2>Zadroga Haus</h2>
+			<h2>Explore</h2>
 		</div>
 		<div class="header-right">
 			<a href="#social-share" data-toggle="modal">Share</a>
@@ -52,26 +52,33 @@
 	<div class="content">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<div class="card"></div>
-				</div>	
-				<div class="col-md-3 col-sm-6">
-					<div class="card"></div>
+				<div class="alert alert-info alert-dismissible" role="alert">
+				  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <i class="fa fa-commenting" aria-hidden="true"></i> <strong>Tip</strong> <br>Press the green buttons to discover and learn about eco friendly technologies used in each room.
 				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="card"></div>
+				<p class="intro"></p>
+			</div>
+			<div class="row text-center">
+				<div id="house-plan" class="plan-container">
+					<div class="plan-layer"></div>
+					<div id="house-plan-buttons" class="btn-layer">
+						<a id="btn-living" href="living.html" class="btn btn-sm btn-primary">Living</a>
+						<a id="btn-outside" href="outside.html" class="btn btn-sm btn-primary">Outside</a>
+						<a id="btn-kitchen" href="kitchen.html" class="btn btn-sm btn-primary">Kitchen</a>
+						<a id="btn-potter" href="potter.html" class="btn btn-sm btn-primary">Potter</a>
+						<a id="btn-bath" href="bath.html" class="btn btn-sm btn-primary">Bath</a>
+						<a id="btn-bed" href="bed.html" class="btn btn-sm btn-primary">Bed</a>
+						<a id="btn-laundry" href="laundry.html" class="btn btn-sm btn-primary">Laundry</a>
+					</div>
 				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="card"></div>
-				</div>	
 			</div>
 		</div>
 	</div>
 
 	<footer class="row">
 		<ul class="text-center nav nav-pills">
-		  <li  role="presentation" class="active"><a href="index.html"><span id="nav-about"></span><label>About</label></a></li>
-		  <li  role="presentation"><a href="explore.html"><span id="nav-explore"></span><label>Explore</label></a></li>
+		  <li  role="presentation"><a href="index.html"><span id="nav-about"></span><label>About</label></a></li>
+		  <li  role="presentation" class="active"><a href="explore.html"><span id="nav-explore"></span><label>Explore</label></a></li>
 		  <li  role="presentation"><a href="contact.html"><span id="nav-contact"></span><label>Contact</label></a></li>
 		</ul>
 	</footer>

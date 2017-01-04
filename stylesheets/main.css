@@ -9306,6 +9306,11 @@ img {
   z-index: 10;
 }
 
+/* line 64, ../sass/base/_base.scss */
+.intro {
+  padding: 12px 0;
+}
+
 /* line 1, ../sass/base/_typography.scss */
 h1 {
   font-weight: 100;
@@ -9327,6 +9332,12 @@ h3 {
   font-size: 0.9rem;
 }
 
+/* line 19, ../sass/base/_typography.scss */
+p {
+  color: #556574;
+  line-height: 1.5;
+}
+
 /* line 1, ../sass/base/_header.scss */
 header {
   position: fixed;
@@ -9336,7 +9347,7 @@ header {
   height: 50px;
   border-bottom: solid 1px #D5D8DC;
   background: #ffffff;
-  z-index: 20;
+  z-index: 30;
 }
 /* line 11, ../sass/base/_header.scss */
 header .header-left, header .header-center, header .header-right {
@@ -9405,7 +9416,7 @@ footer {
   height: 65px;
   border-top: solid 1px #D5D8DC;
   background: #ffffff;
-  z-index: 20;
+  z-index: 30;
 }
 /* line 11, ../sass/base/_footer.scss */
 footer .nav-pills {
@@ -9441,8 +9452,8 @@ footer .nav-pills li a span#nav-about {
   background-image: url("../img/icons/about.svg");
 }
 /* line 40, ../sass/base/_footer.scss */
-footer .nav-pills li a span#nav-rooms {
-  background-image: url("../img/icons/rooms.svg");
+footer .nav-pills li a span#nav-explore {
+  background-image: url("../img/icons/explore.svg");
 }
 /* line 44, ../sass/base/_footer.scss */
 footer .nav-pills li a span#nav-contact {
@@ -9482,12 +9493,12 @@ footer .nav-pills li.active a span#nav-about {
   background-image: url("../img/icons/about-active.svg");
 }
 /* line 81, ../sass/base/_footer.scss */
-footer .nav-pills li.active a span#nav-rooms {
-  background-image: url("../img/icons/about-rooms.svg");
+footer .nav-pills li.active a span#nav-explore {
+  background-image: url("../img/icons/explore-active.svg");
 }
 /* line 85, ../sass/base/_footer.scss */
 footer .nav-pills li.active a span#nav-contact {
-  background-image: url("../img/icons/about-contact.svg");
+  background-image: url("../img/icons/contact-active.svg");
 }
 
 /*
@@ -10543,13 +10554,36 @@ stretchRight
   color: #ffffff;
 }
 
+/* line 47, ../sass/components/_buttons.scss */
+.btn-dot {
+  background-color: rgba(64, 202, 176, 0.9);
+  box-shadow: 0 0 0 9px rgba(64, 202, 176, 0.2);
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  padding: 0;
+}
+/* line 55, ../sass/components/_buttons.scss */
+.btn-dot:hover, .btn-dot:focus {
+  background-color: #40cab0;
+  box-shadow: 0 0 0 9px rgba(64, 202, 176, 0.1);
+}
+
+/* line 1, ../sass/components/_banners.scss */
+.alert-info {
+  background-color: #CFE7E4;
+  border-color: #40CAB0;
+  color: #556574;
+  margin: 12px 0;
+}
+
 /* line 1, ../sass/components/_cards.scss */
 .card {
   display: block;
   position: relative;
   height: 400px;
   width: 100%;
-  border-radius: 6px;
+  border-radius: 4px;
   background: #ffffff;
   margin-top: 12px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
@@ -10577,12 +10611,208 @@ stretchRight
 }
 
 /* line 1, ../sass/components/_modals.scss */
-.modal-header, .modal-body, .modal-footer {
+.modal {
+  background: rgba(28, 40, 51, 0.6);
+}
+/* line 4, ../sass/components/_modals.scss */
+.modal .modal-dialog {
+  border-radius: 4px;
+}
+/* line 7, ../sass/components/_modals.scss */
+.modal .modal-dialog .modal-header, .modal .modal-dialog .modal-body, .modal .modal-dialog .modal-footer {
   border: none;
 }
-
-/* line 5, ../sass/components/_modals.scss */
-.modal-footer {
+/* line 11, ../sass/components/_modals.scss */
+.modal .modal-dialog .modal-footer {
   text-align: center;
   font-size: 1rem;
+}
+
+/* line 1, ../sass/pages/_explore.scss */
+.plan-container {
+  position: relative;
+  display: block;
+  margin: 12px auto;
+}
+/* line 6, ../sass/pages/_explore.scss */
+.plan-container .plan-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+/* line 17, ../sass/pages/_explore.scss */
+.plan-container .btn-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+}
+/* line 25, ../sass/pages/_explore.scss */
+.plan-container .btn-layer .btn {
+  position: absolute;
+}
+/* line 30, ../sass/pages/_explore.scss */
+.plan-container#house-plan {
+  width: 326px;
+  height: 612px;
+}
+/* line 34, ../sass/pages/_explore.scss */
+.plan-container#house-plan .plan-layer {
+  background-image: url(../img/plans/house.svg);
+}
+/* line 38, ../sass/pages/_explore.scss */
+.plan-container#house-plan #btn-living {
+  top: 80px;
+  left: 50px;
+}
+/* line 43, ../sass/pages/_explore.scss */
+.plan-container#house-plan #btn-kitchen {
+  top: 80px;
+  right: 120px;
+}
+/* line 48, ../sass/pages/_explore.scss */
+.plan-container#house-plan #btn-outside {
+  bottom: 108px;
+  right: 0px;
+}
+/* line 53, ../sass/pages/_explore.scss */
+.plan-container#house-plan #btn-potter {
+  top: 290px;
+  left: 40px;
+}
+/* line 58, ../sass/pages/_explore.scss */
+.plan-container#house-plan #btn-bath {
+  top: 250px;
+  right: 120px;
+}
+/* line 63, ../sass/pages/_explore.scss */
+.plan-container#house-plan #btn-bed {
+  top: 400px;
+  left: 90px;
+}
+/* line 68, ../sass/pages/_explore.scss */
+.plan-container#house-plan #btn-laundry {
+  bottom: 30px;
+  left: 45px;
+}
+/* line 75, ../sass/pages/_explore.scss */
+.plan-container#living-plan {
+  width: 326px;
+  height: 316px;
+}
+/* line 79, ../sass/pages/_explore.scss */
+.plan-container#living-plan .plan-layer {
+  background-image: url(../img/plans/living.svg);
+}
+/* line 83, ../sass/pages/_explore.scss */
+.plan-container#living-plan #btn-living-1 {
+  top: 80px;
+  left: 50px;
+}
+/* line 88, ../sass/pages/_explore.scss */
+.plan-container#living-plan #btn-living-2 {
+  top: 80px;
+  right: 50px;
+}
+/* line 95, ../sass/pages/_explore.scss */
+.plan-container#kitchen-plan {
+  width: 326px;
+  height: 385px;
+}
+/* line 99, ../sass/pages/_explore.scss */
+.plan-container#kitchen-plan .plan-layer {
+  background-image: url(../img/plans/kitchen.svg);
+}
+/* line 103, ../sass/pages/_explore.scss */
+.plan-container#kitchen-plan #btn-kitchen-1 {
+  top: 180px;
+  right: 50px;
+}
+/* line 108, ../sass/pages/_explore.scss */
+.plan-container#kitchen-plan #btn-kitchen-2 {
+  top: 80px;
+  right: 50px;
+}
+/* line 115, ../sass/pages/_explore.scss */
+.plan-container#potter-plan {
+  width: 326px;
+  height: 450px;
+}
+/* line 119, ../sass/pages/_explore.scss */
+.plan-container#potter-plan .plan-layer {
+  background-image: url(../img/plans/potter.svg);
+}
+/* line 123, ../sass/pages/_explore.scss */
+.plan-container#potter-plan #btn-potter-1 {
+  bottom: 30px;
+  left: 50px;
+}
+/* line 128, ../sass/pages/_explore.scss */
+.plan-container#potter-plan #btn-potter-2 {
+  bottom: 140px;
+  left: 100px;
+}
+/* line 135, ../sass/pages/_explore.scss */
+.plan-container#bath-plan {
+  width: 326px;
+  height: 389px;
+}
+/* line 139, ../sass/pages/_explore.scss */
+.plan-container#bath-plan .plan-layer {
+  background-image: url(../img/plans/bath.svg);
+}
+/* line 143, ../sass/pages/_explore.scss */
+.plan-container#bath-plan #btn-bath-1 {
+  bottom: 30px;
+  right: 50px;
+}
+/* line 148, ../sass/pages/_explore.scss */
+.plan-container#bath-plan #btn-bath-2 {
+  bottom: 200px;
+  right: 50px;
+}
+/* line 155, ../sass/pages/_explore.scss */
+.plan-container#bed-plan {
+  width: 326px;
+  height: 324px;
+}
+/* line 159, ../sass/pages/_explore.scss */
+.plan-container#bed-plan .plan-layer {
+  background-image: url(../img/plans/bed.svg);
+}
+/* line 163, ../sass/pages/_explore.scss */
+.plan-container#bed-plan #btn-bed-1 {
+  top: 50px;
+  right: 80px;
+}
+/* line 168, ../sass/pages/_explore.scss */
+.plan-container#bed-plan #btn-bed-2 {
+  bottom: 200px;
+  left: 40px;
+}
+/* line 175, ../sass/pages/_explore.scss */
+.plan-container#laundry-plan {
+  width: 326px;
+  height: 464px;
+}
+/* line 179, ../sass/pages/_explore.scss */
+.plan-container#laundry-plan .plan-layer {
+  background-image: url(../img/plans/laundry.svg);
+}
+/* line 183, ../sass/pages/_explore.scss */
+.plan-container#laundry-plan #btn-laundry-1 {
+  bottom: 80px;
+  right: 60px;
+}
+/* line 188, ../sass/pages/_explore.scss */
+.plan-container#laundry-plan #btn-laundry-2 {
+  bottom: 150px;
+  left: 80px;
 }
