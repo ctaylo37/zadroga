@@ -19,3 +19,27 @@
 		color: $grey-4;
 	}
 }
+
+.btn-twitter{
+	background-color: #1b95e0;
+	border: transparent;
+	color: $paper;
+
+	&:hover, &:focus{
+		background-color: darken(#1b95e0, 8%);
+		border: transparent;
+		color: $paper;
+	}
+}
+
+.btn-facebook{
+	background-color: #4267b2;
+	border: transparent;
+	color: $paper;
+
+	&:hover, &:focus{
+		background-color: darken(#4267b2, 8%);
+		border: transparent;
+		color: $paper;
+	}
+}
