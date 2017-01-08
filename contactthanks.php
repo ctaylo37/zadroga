@@ -51,8 +51,32 @@
 
 	<div class="content">
 		<div class="container">
-			<div class="row text-center">
-				Thanks
+			<div class="row">
+				<div class="col-md-12">
+					<p class="intro">Thanks for contacting us.  We will be in touch soon.  In the mean time, check out some of our other projects below:</p>
+					<br>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						Zadroga
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						Rebel Hill
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						Littlebrook
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -10608,12 +10608,28 @@ form {
 .card {
   display: block;
   position: relative;
-  height: 400px;
   width: 100%;
   border-radius: 4px;
   background: #ffffff;
   margin-top: 12px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+/* line 11, ../sass/components/_cards.scss */
+.card .card-header img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+/* line 17, ../sass/components/_cards.scss */
+.card .card-body {
+  padding: 12px;
+}
+/* line 21, ../sass/components/_cards.scss */
+.card h1 {
+  margin: 12px 0 6px 0;
+}
+/* line 25, ../sass/components/_cards.scss */
+.card h3 {
+  margin-top: 8px;
 }
 
 /* line 2, ../sass/components/_carousel.scss */
@@ -10653,6 +10669,46 @@ form {
 .modal .modal-dialog .modal-footer {
   text-align: center;
   font-size: 1rem;
+}
+
+/* line 3, ../sass/pages/_home.scss */
+#home #hero {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/hero-thumb.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media only screen and (min-width: 1024px) {
+  /* line 3, ../sass/pages/_home.scss */
+  #home #hero {
+    background-image: url("../img/hero-thumb@2x.png");
+  }
+}
+/* line 15, ../sass/pages/_home.scss */
+#home #hero a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: -webkit-linear-gradient(top, #1c2833, rgba(28, 40, 51, 0));
+  padding: 100px 0;
+}
+/* line 24, ../sass/pages/_home.scss */
+#home #hero a i {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 60px;
+}
+/* line 30, ../sass/pages/_home.scss */
+#home #hero a:hover i {
+  color: #ffffff;
+}
+/* line 37, ../sass/pages/_home.scss */
+#home .container {
+  margin-top: -60px;
+  margin-bottom: 60px;
 }
 
 /* line 1, ../sass/pages/_explore.scss */
