@@ -10693,7 +10693,7 @@ form {
   left: 0;
   bottom: 0;
   right: 0;
-  background: -webkit-linear-gradient(top, #1c2833, rgba(28, 40, 51, 0));
+  background: -webkit-linear-gradient(bottom, #1c2833, rgba(28, 40, 51, 0));
   padding: 100px 0;
 }
 /* line 24, ../sass/pages/_home.scss */
