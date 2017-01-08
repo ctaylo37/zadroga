@@ -52,7 +52,44 @@
 	<div class="content">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">
+					<p class="intro">Interested in learning more about our other projects, school programs, donations, or just want to send us a note to let us know how we’re doing?  Fill out the form below!</p>
+					<br>
+				</div>		
 				
+			</div>
+			<div class="row">
+				<form method="post" action="form-mail.php" enctype="multipart/form-data">
+					
+					<div class="row">
+						<div class="form-group col-md-12">
+							<label for="Name">Name</label>
+    						<input name="Name" id="Name" type="text" class="form-control" placeholder="First and Last Name">
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="form-group col-md-12">
+							<label for="Email">Email</label>
+    						<input name="Email" id="Email" type="text" class="form-control" placeholder="example@zadroga.littlebrook.me">
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="form-group col-md-12">
+							<label for="Feedback">Comments</label>
+						<textarea class="form-control" name="Feedback" id="Feedback" placeholder="Let us know how we're doing or make a suggestion..." rows="3"></textarea>
+						</div>
+					</div>
+
+					</br>
+
+					<div class="row">
+						<div class="col-md-12">
+							<input type="submit" name="submit" value="Submit" class="btn btn-lg btn-primary btn-block" />
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>

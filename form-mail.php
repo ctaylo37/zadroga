@@ -1,12 +1,10 @@
 <?php
 
-$EmailFrom = "ZumoBikes";
+$EmailFrom = "Zadroga App";
 $EmailTo = "Berwyn425@gmail.com";
 $Subject = "Web Inquiry";
-$FirstName = Trim(stripslashes($_POST['FirstName']));  
-$LastName = Trim(stripslashes($_POST['LastName']));  
+$Name = Trim(stripslashes($_POST['Name']));  
 $Email = Trim(stripslashes($_POST['Email'])); 
-$Interest = Trim(stripslashes($_POST['Interest'])); 
 $Feedback = Trim(stripslashes($_POST['Feedback']));  
 
 // validation
@@ -18,17 +16,11 @@ if (!$validationOK) {
 
 // prepare email body text
 $Body = "";
-$Body .= "FirstName: ";
-$Body .= $FirstName;
-$Body .= "\n";
-$Body .= "LastName: ";
-$Body .= $LastName;
+$Body .= "Name: ";
+$Body .= $Name;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;
-$Body .= "\n";
-$Body .= "Interest: ";
-$Body .= $Interest;
 $Body .= "\n";
 $Body .= "Feedback: ";
 $Body .= $Feedback;
