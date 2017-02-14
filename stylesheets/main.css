@@ -9344,6 +9344,35 @@ h2, label {
   color: #1C2833;
 }
 
+/* line 29, ../sass/base/_typography.scss */
+.divider {
+  position: relative;
+  display: block;
+  padding: 18px 0;
+}
+/* line 34, ../sass/base/_typography.scss */
+.divider label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #556574;
+  display: relative;
+  background-color: #EAECEE;
+  padding-right: 6px;
+  position: relative;
+  z-index: 20;
+}
+/* line 45, ../sass/base/_typography.scss */
+.divider span {
+  height: 1px;
+  background-color: #D5D8DC;
+  position: absolute;
+  margin: 0 15px;
+  top: 9px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
 /* line 1, ../sass/base/_header.scss */
 header {
   position: fixed;
@@ -10647,10 +10676,16 @@ form {
 .carousel i {
   position: absolute;
   top: 50%;
+  color: rgba(255, 255, 255, 0.6);
 }
-/* line 20, ../sass/components/_carousel.scss */
+/* line 18, ../sass/components/_carousel.scss */
+.carousel i:hover {
+  color: #ffffff;
+}
+/* line 25, ../sass/components/_carousel.scss */
 .carousel .carousel-inner .item img {
   margin: 0 auto;
+  width: 100%;
 }
 
 /* line 1, ../sass/components/_modals.scss */

@@ -25,3 +25,31 @@ h2, label{
 	font-weight: 400;
 	color: $grey-5;
 }
+
+.divider{
+	position: relative;
+	display: block;
+	padding: 18px 0;
+
+	label{
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		color: $grey-3;
+		display: relative;
+		background-color: $grey-1;
+		padding-right: 6px;
+		position: relative;
+		z-index: 20;
+	}
+
+	span{
+		height: 1px;
+		background-color: $grey-2;
+		position: absolute;
+		margin: 0 15px;
+		top: 9px;
+		left: 0;
+		right: 0;
+		z-index: 10;
+	}
+}

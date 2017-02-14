@@ -13,12 +13,18 @@
   i{
     position: absolute;
     top: 50%;
+    color: rgba(255,255,255,.6);
+
+    &:hover{
+      color: $paper;
+    }
   }
 
   .carousel-inner{
     .item{
       img{
         margin: 0 auto;
+        width: 100%;
       }
     }
   }
