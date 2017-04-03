@@ -10591,8 +10591,8 @@ stretchRight
 
 /* line 47, ../sass/components/_buttons.scss */
 .btn-dot {
-  background-color: rgba(64, 202, 176, 0.9);
-  box-shadow: 0 0 0 9px rgba(64, 202, 176, 0.2);
+  background-color: #68d5c1;
+  box-shadow: 0 0 0 9px #b8ebe2;
   width: 18px;
   height: 18px;
   border-radius: 9px;
@@ -10600,8 +10600,8 @@ stretchRight
 }
 /* line 55, ../sass/components/_buttons.scss */
 .btn-dot:hover, .btn-dot:focus {
-  background-color: #40cab0;
-  box-shadow: 0 0 0 9px rgba(64, 202, 176, 0.1);
+  background-color: #54d0b8;
+  box-shadow: 0 0 0 9px #90e0d1;
 }
 
 /* line 1, ../sass/components/_inputs.scss */
@@ -10627,7 +10627,7 @@ form {
 
 /* line 1, ../sass/components/_banners.scss */
 .alert-info {
-  background-color: #CFE7E4;
+  background-color: #b8ebe2;
   border-color: #40CAB0;
   color: #556574;
   margin: 12px 0;

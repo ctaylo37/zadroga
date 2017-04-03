@@ -45,15 +45,15 @@
 }
 
 .btn-dot{
-	background-color: rgba(64, 202, 176, .9);
-	box-shadow: 0 0 0 9px rgba(64, 202, 176, .2);
+	background-color: lighten($brand, 10%);
+	box-shadow: 0 0 0 9px lighten($brand, 30%);
 	width: 18px;
 	height: 18px;
 	border-radius: 9px;
 	padding: 0;
 
 	&:hover, &:focus{
-		background-color: rgba(64, 202, 176, 1);
-		box-shadow: 0 0 0 9px rgba(64, 202, 176, .1);
+		background-color: lighten($brand, 5%);
+	box-shadow: 0 0 0 9px lighten($brand, 20%);
 	}
 }
